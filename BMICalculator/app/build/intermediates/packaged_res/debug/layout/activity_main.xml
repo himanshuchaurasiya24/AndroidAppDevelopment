@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="50sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHeightInCms"
+        android:hint="@string/hint_height"
+        android:inputType="number"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtWeightInKgs"
+        android:hint="@string/hint_weight"
+        android:inputType="number"
+        android:gravity="center"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="@string/button_text"
+        android:backgroundTint="@color/teal_200"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:text="Your result here"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+</LinearLayout>

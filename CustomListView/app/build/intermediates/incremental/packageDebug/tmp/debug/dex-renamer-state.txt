@@ -1,0 +1,4 @@
+#Thu Sep 26 13:01:05 PDT 2019
+base.0=C\:\\Users\\Frankenstein\\Desktop\\AndroidCode\\CustomListView\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

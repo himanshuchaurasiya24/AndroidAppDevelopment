@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    >
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="#F48FB1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:id="@+id/imgContact"
+                android:src="@drawable/baseline_person_add_24" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Contacts"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:id="@+id/contactName"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Contact Name"
+                    android:id="@+id/edtAddContactName"
+                    android:inputType="textAutoComplete"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtAddContactNumber"
+                    android:hint="Enter Contact Number"
+                    android:inputType="numberDecimal"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnAddContact"
+                    android:text="Add Contact"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

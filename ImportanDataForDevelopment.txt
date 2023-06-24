@@ -1,0 +1,10 @@
+iDial.setData(Uri.parse("tel:"+Uri.encode("+919129611321")));
+startActivity(Intent.createChooser(iDial, "Call Via"));
+iMsg.setData(Uri.parse("smsto:"+Uri.encode("+919129611321")));
+iMsg.putExtra("sms_body", "Please solve this issue asap");
+iEmail.setType("message/rfc822");
+iEmail.putExtra(Intent.EXTRA_EMAIL, new String [] {"himanshuchaurasiya24@gmail.com", "hc24199@gmail.com", "himanshuch24@outlook.com"});
+iEmail.putExtra(Intent.EXTRA_SUBJECT, "Queries");
+iEmail.putExtra(Intent.EXTRA_TEXT, "Please Resolve this issue asap");
+iShare.setType("text/plain");
+iShare.putExtra(Intent.EXTRA_TEXT, "Download this amazing app, https://play.google.com/store/apps/details?id=offroad.racing.game");

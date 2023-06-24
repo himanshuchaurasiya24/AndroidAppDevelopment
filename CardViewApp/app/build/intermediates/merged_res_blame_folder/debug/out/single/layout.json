@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.chaurasiya.cardviewapp-mergeDebugResources-29:/layout/content_scrolling.xml",
+        "source": "com.chaurasiya.cardviewapp-main-32:/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "com.chaurasiya.cardviewapp-mergeDebugResources-29:/layout/activity_scrolling.xml",
+        "source": "com.chaurasiya.cardviewapp-main-32:/layout/activity_scrolling.xml"
+    },
+    {
+        "merged": "com.chaurasiya.cardviewapp-mergeDebugResources-29:/layout/card_app.xml",
+        "source": "com.chaurasiya.cardviewapp-main-32:/layout/card_app.xml"
+    }
+]

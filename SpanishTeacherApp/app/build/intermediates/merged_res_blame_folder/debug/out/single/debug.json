@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_purple.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/purple.mp3"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_orange.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\orange.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_blue.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/blue.mp3"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_orange.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/orange.mp3"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_green.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\green.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_red.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\red.png"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_green.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/green.mp3"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_blue.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\blue.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_yellow.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/yellow.mp3"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_purple.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\purple.png"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\drawable_yellow.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\drawable\\yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.chaurasiya.spanishteacherapp-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.chaurasiya.spanishteacherapp-merged_res-30:/raw_red.mp3.flat",
+        "source": "com.chaurasiya.spanishteacherapp-main-32:/raw/red.mp3"
+    }
+]

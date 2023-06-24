@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#45976A"
+    android:padding="11sp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/contentDescription"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:text="@string/aboutUS"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter your text here"
+        android:inputType="textNoSuggestions" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E168F"
+        android:text="Contact Us"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="button">Click</string>
+    <string name="app_name1">BMI Calculator</string>
+    <string name="hint_height">Height</string>
+    <string name="hint_weight">Weight</string>
+    <string name="text">Your Result Here</string>
+</resources>

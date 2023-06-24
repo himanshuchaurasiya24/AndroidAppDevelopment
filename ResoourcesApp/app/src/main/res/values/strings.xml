@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ResoourcesApp</string>
+    <string name="welcome_text">Resources App</string>
+    <string-array name="string_array_demo">
+        <item>Java</item>
+        <item>Python</item>
+        <item>C++</item>
+        <item>Android Development</item>
+    </string-array>
+</resources>

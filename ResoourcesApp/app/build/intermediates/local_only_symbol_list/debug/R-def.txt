@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+array string_array_demo
+color black
+color myColor
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable gradient1
+drawable gradient2
+drawable gradient3
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable my_drawable
+drawable my_frame_textview
+font googlesans
+font googlesansbold
+id new_game
+id save_game
+layout activity_main
+menu my_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string welcome_text
+style Theme.ResoourcesApp
+xml backup_rules
+xml data_extraction_rules

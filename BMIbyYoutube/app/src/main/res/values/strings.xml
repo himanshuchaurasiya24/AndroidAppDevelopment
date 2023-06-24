@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMIbyYoutube</string>
+    <string name="hint_in">Enter your height in In</string>
+    <string name="hint_ft">Enter your height in ft</string>
+    <string name="hint_weight">Enter your weight</string>
+    <string name="btn_text">GET BMI</string>
+</resources>
