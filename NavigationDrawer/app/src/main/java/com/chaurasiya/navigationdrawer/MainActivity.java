@@ -1,7 +1,6 @@
 package com.chaurasiya.navigationdrawer;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -9,81 +8,105 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    private DrawerLayout mDrawer;
-    private Toolbar toolbar;
-    private NavigationView nvDrawer;
-    private ActionBarDrawerToggle drawerToggle;
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    Toolbar toolbar;
+    int fragAddFlag = 0;
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case android.R.id.home:
-                mDrawer.openDrawer(GravityCompat.START);
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // toolbar
+        drawerLayout = findViewById(R.id.drawerLayout);
+        navigationView = findViewById(R.id.navView);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        // drawerView
-        mDrawer = findViewById(R.id.myDrawerLayout);
-        // drawer navigation
-        nvDrawer = findViewById(R.id.nvView);
-        setupDrawerContent(nvDrawer);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.OpenNavigation, R.string.CloseNavigation);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
 
-    }
-
-    private void setupDrawerContent(NavigationView nvDrawer) {
-        nvDrawer .setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+        loadFragment(new AFragment());
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                selectDrawerItem(item);
+                int id = item.getItemId();
+                if (id==R.id.optNotes){
+                    loadFragment(new AFragment());
+                } else if (id==R.id.optNewWindow) {
+                    loadFragment(new BFragment());
+                } else if (id == R.id.optHome){
+                    loadFragment(new CFragment());
+                } else if (id==R.id.optSettings) {
+                    loadFragment(new DFragment());
+                }else{
+                    loadFragment(new EFragment());
+                }
+                drawerLayout.closeDrawer(GravityCompat.START);
+
+
                 return true;
             }
         });
+
+    }
+    public void onBackPressed(){
+        if(drawerLayout.isDrawerOpen(GravityCompat.START)){
+            drawerLayout.closeDrawer(GravityCompat.START);
+        }else {
+            super.onBackPressed();
+        }
     }
 
-    private void selectDrawerItem(MenuItem item) {
-        Fragment fragment = null;
-        Class fragmentClass;
-        switch(item.getItemId()){
-            case R.id.nav_first_fragment:
-                fragmentClass = FirstFragment.class;
-                break;
-            case R.id.nav_second_fragment:
-                fragmentClass= SecondFragment.class;
-                break;
-            case R.id.nav_third_fragment:
-                fragmentClass = ThirdFragment.class;
-                break;
-            default:
-                fragmentClass = FirstFragment.class;
-        }
-        try{
-            fragment = (Fragment) fragmentClass.newInstance();
-        }catch (IllegalAccessException e){
-            e.printStackTrace();
-        }catch(InstantiationException e){
-            e.printStackTrace();
-        }
+    private void loadFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-        item.setChecked(true);
-        setTitle(item.getTitle());
-        mDrawer.closeDrawers();
+        FragmentTransaction ft = fragmentManager.beginTransaction();
+        // to pass data to fragment-->
+        Bundle bundle = new Bundle();
+        bundle.putString("Argument1", "Raman");
+        bundle.putInt("Argument2" , 7);
+        fragment.setArguments(bundle);
+        //
+        if(fragAddFlag==0){
+            ft.add(R.id.container, fragment);
+            fragAddFlag =1;
+        }else
+            ft.replace(R.id.container, fragment);
+        ft.commit();
+    }
+    public void CallFragment(){
+        Log.d("InActivity", "from fragment");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

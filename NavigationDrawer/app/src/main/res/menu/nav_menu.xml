@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/optNotes"
+        android:icon="@drawable/baseline_notes_24"
+        android:title="Notes"/>
+    <item
+        android:id="@+id/optNewWindow"
+        android:icon="@drawable/baseline_window_24"
+        android:title="New Window"/>
+    <item
+        android:id="@+id/optSettings"
+        android:icon="@drawable/baseline_lock_reset_24"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/optHome"
+        android:icon="@drawable/baseline_home_work_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/optLogOut"
+        android:icon="@drawable/baseline_perm_contact_calendar_24"
+        android:title="Log Out"/>
 
 </menu>

@@ -9,13 +9,964 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c26b9a9-348a-4bee-9b61-928292620d8b" name="Changes" comment="" />
+    <list default="true" id="4c4cca55-eeb9-44c6-a5f6-f506e4a71eba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/AFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/BFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/CFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/DFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/EFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_home_work_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_lock_reset_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_notes_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_perm_contact_calendar_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_window_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/header_lay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/app_metadata/debug/app-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/app_metadata/debug/app-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_170fb5e138a1fdeb9ec61f76663e6a59cb29ebe040423da726a25916f66032f3_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_170fb5e138a1fdeb9ec61f76663e6a59cb29ebe040423da726a25916f66032f3_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2MbTdI85N+cJ7BCKrHDKW3hKZ9Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2q26BjHcyG1awNRlnUDq0yxuFXA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3RUk21nsuRyYESSNkJBhFUV27Js=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6uoGETlZOzbNQ2IMSzSq4CwnyMI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/76MPtwn2xVLEvvOn+Z3CceHIE4A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/779M94nQfEohgw_M0qwigC4bWhg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8Gcp6iyBh6Q2PGgAGugrUqyQubM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AU7DRbXcZDi622FUPLFxarF8Guk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Aw+wa7khOsXdzZSpyHQx8y6_qaY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BFapgUOZa7MtdfKqR7XZqRWk9l0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BGBGYArmX1eZiXyLzQOOwAhJQR4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CKrQxvk5_a4vjz_5vNHAsgBdjaI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DJ89C9DI4ssD+RYt1czxdjMlcnw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ET1K5kLzuq6Aacef2EgfN4Aji3I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FsOkjrQrtJtQpJnaj6rxjDWFbXc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GceHSfuHIQcFAVn49sF3nGrEU3Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HVuCK0W8RnYWC+XmrwZMj57qSQA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/J9OsZXrW3sHL1v+MJLMJtp6Tsy0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Mcag+1Dix79k7gMhRS4EZWGRjbQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PUd7YrMIt+2k3rNkoc4fuzrme34=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SFq6Ay+5j2MbvxZBinuakpEEnwQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/V9HJ1z5EiL2Pj46+JHNV7D31Isc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/V9Ilrgf5UFFnYyA0l7eXy1xhfCo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/W3VYX_OCtfqr9kX9oL8dR6dL6oM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WaK3qpQ9aZ9V60_LRQKE97rz1LM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Xrf4RmEVhmAyfZxKbKSuoeeIMVU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z3irqXguiN2lPaQ+kT2uGvdMrb0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZezAoJivlyHWjjQyGFeSmO4XyD4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_wtVD5GHky5RlYAnd3bRJTgQuOw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bPX6C9nyJaMybLoCO1PkW51qPm4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cCvR6KGs72JWrMgGaphp9L6yokg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dZzVAMRvtEIEorQH7YTtjR8D8+c=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/f9hqC9rJXKaVC1jVzSa1kf+zvjQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fR_vKyltCoSXFo8aGcVKnqgy7MY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gJCmtl5R06bhBn6c+dLeIuWJ3Bo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gZ9yumb481b5xowLSyU_EUlpHp4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gc4mtUL1RE4UGqs5uorhsEW5Tzo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gda_nI2imx0DTV813WyIaszg3MM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hDPf4K5fMCbP_29xy76BLjCRn5s=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hgsVmvptTH9ZtYA0wuiBEzABo5k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jjOLN3QBG4s0w2bEGwX6ky7Oje4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kgTi0O5IG6DK8eVKEuMtw6UGcwg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kqJsqMPFYu2rMNqe3ASnSEQu+_c=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lswR8atjXwHY26CTdoONT79igiA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mCa0wSTd2HUcEi80TrFvsBvZT50=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qM4o7Nd_3TPxi69KbVJAEvJKxng=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rScS_PCQCgtUGtA1lLCdDGJ+kmo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tZPCthefQ5r0pDDYRg8MU7HtZiU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ulVdRuKuq0Axfsa0_dgVjuRFSjo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wXalE2SxB28tkLX+euFZaX0eWhk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zXUW_5GOKr_w3Hfu06KhHl6YxgA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processDebugResources/resources-list-for-resources-debug.ap_.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/FirstFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/SecondFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaurasiya/navigationdrawer/ThirdFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/base.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/base.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_app1.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_app2.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_app3.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_f.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_k.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_robot.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_fragment_first.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_fragment_second.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_fragment_third.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_toolbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/menu_drawer_view.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-af_values-af.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-af_values-af.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-am_values-am.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-am_values-am.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ar_values-ar.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-as_values-as.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-as_values-as.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-az_values-az.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-az_values-az.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+es+419_values-b+es+419.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+es+419_values-b+es+419.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-be_values-be.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-be_values-be.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bg_values-bg.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bn_values-bn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bs_values-bs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ca_values-ca.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-cs_values-cs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-da_values-da.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-da_values-da.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-de_values-de.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-de_values-de.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-el_values-el.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-el_values-el.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rAU_values-en-rAU.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rCA_values-en-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rIN_values-en-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rXC_values-en-rXC.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es_values-es.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es_values-es.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-et_values-et.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-et_values-et.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-eu_values-eu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fa_values-fa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fi_values-fi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr_values-fr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gl_values-gl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gu_values-gu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hi_values-hi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hr_values-hr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hu_values-hu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hy_values-hy.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-in_values-in.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-in_values-in.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-is_values-is.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-is_values-is.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-it_values-it.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-it_values-it.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-iw_values-iw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ja_values-ja.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ka_values-ka.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kk_values-kk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-km_values-km.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-km_values-km.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kn_values-kn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ko_values-ko.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ky_values-ky.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-land_values-land.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-land_values-land.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-large-v4_values-large-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-large-v4_values-large-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldrtl-v17_values-ldrtl-v17.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldrtl-v17_values-ldrtl-v17.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lo_values-lo.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lt_values-lt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lv_values-lv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mk_values-mk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ml_values-ml.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mn_values-mn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mr_values-mr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ms_values-ms.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-my_values-my.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-my_values-my.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nb_values-nb.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ne_values-ne.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-night-v8_values-night-v8.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nl_values-nl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-or_values-or.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-or_values-or.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pa_values-pa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pl_values-pl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-port_values-port.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-port_values-port.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rBR_values-pt-rBR.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt_values-pt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ro_values-ro.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ru_values-ru.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-si_values-si.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-si_values-si.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sk_values-sk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sl_values-sl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-small-v4_values-small-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-small-v4_values-small-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sq_values-sq.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sr_values-sr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sv_values-sv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw_values-sw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ta_values-ta.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-te_values-te.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-te_values-te.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-th_values-th.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-th_values-th.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tl_values-tl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tr_values-tr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uk_values-uk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ur_values-ur.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uz_values-uz.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v16_values-v16.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v16_values-v16.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v17_values-v17.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v17_values-v17.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v18_values-v18.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v18_values-v18.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v22_values-v22.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v22_values-v22.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v23_values-v23.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v23_values-v23.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v24_values-v24.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v25_values-v25.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v25_values-v25.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v26_values-v26.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v26_values-v26.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v28_values-v28.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v28_values-v28.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v31_values-v31.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v31_values-v31.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-vi_values-vi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v20_values-watch-v20.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v20_values-watch-v20.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v21_values-watch-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v21_values-watch-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_backup_rules.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_backup_rules.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w480dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w480dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/app2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/app3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/fragment_third.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/menu/drawer_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/4b132f108551101fc55dfdb0ad1326aab988b2e7632cc63d313237742fb15bb3_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/4b132f108551101fc55dfdb0ad1326aab988b2e7632cc63d313237742fb15bb3_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/FirstFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/MainActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/SecondFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaurasiya/navigationdrawer/ThirdFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/file-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/variant_model/debug/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/SecondFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaurasiya/navigationdrawer/ThirdFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/AppxBlockMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/AppxManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/AppxMetadata/CodeIntegrity.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/AppxSignature.p7x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/NewBitmapImage.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-16_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-16_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-20_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-20_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-24_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-24_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-256_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-256_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-30_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-30_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-32_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-32_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-36_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-36_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-40_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-40_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-48_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-48_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-60_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-60_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-64_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-64_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-72_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-72_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-80_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-80_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-96_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintAppList.targetsize-96_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintMedTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/PaintStoreLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/AirBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/AirBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/BrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/BrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CalligraphyBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CalligraphyBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CalligraphyPenIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CalligraphyPenSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CanvasSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CloudCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ColorPicker.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ColorPickerTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CrayonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CrayonSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CurveTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/CurvedArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/DiamondTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/DoubleArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/DownArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/DownArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/DownArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/EraserTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/FillTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/FivePointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Flip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/FourPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/FreeFormSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/HeartTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/HexagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/LeftArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/LightningTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/LineTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/MagnifierTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/MarkerIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/MarkerSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/NaturalPencilIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/NaturalPencilSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/NoFillOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ObjectSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OilBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OilBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OnePage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OnePageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OvalCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/OvalTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-16_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-16_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-20_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-20_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-24_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-24_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-256_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-256_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-30_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-30_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-32_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-32_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-36_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-36_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-40_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-40_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-48_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-48_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-60_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-60_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-64_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-64_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-72_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-72_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-80_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-80_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-96_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintAppList.targetsize-96_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintMedTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PaintStoreLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Paste.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PencilTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PentagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/PolygonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RectangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RectangularSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RightArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RightTriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RotateRight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RoundedRectCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/RoundedRectTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/SixPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/SizeButtonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/SizeButtonIconDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/SolidFill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/SolidOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/TextTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/Tools.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/TriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/TwoPage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/TwoPageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/UpArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/UpArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/UpArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/WaterColorIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/WaterColorSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ZoomIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ZoomInDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ZoomOut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-black/ZoomOutDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/AirBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/AirBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/BrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/BrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CalligraphyBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CalligraphyBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CalligraphyPenIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CalligraphyPenSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CanvasSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CloudCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ColorPicker.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ColorPickerTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CrayonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CrayonSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CurveTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/CurvedArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/DiamondTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/DoubleArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/DownArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/DownArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/DownArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/EraserTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/FillTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/FivePointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Flip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/FourPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/FreeFormSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/HeartTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/HexagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/LeftArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/LightningTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/LineTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/MagnifierTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/MarkerIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/MarkerSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/NaturalPencilIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/NaturalPencilSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/NoFillOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ObjectSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OilBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OilBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OnePage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OnePageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OvalCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/OvalTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-16_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-16_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-20_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-20_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-24_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-24_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-256_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-256_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-30_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-30_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-32_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-32_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-36_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-36_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-40_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-40_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-48_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-48_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-60_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-60_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-64_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-64_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-72_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-72_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-80_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-80_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-96_altform-lightunplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintAppList.targetsize-96_altform-unplated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintMedTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PaintStoreLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Paste.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PencilTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PentagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/PolygonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RectangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RectangularSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RightArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RightTriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RotateRight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RoundedRectCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/RoundedRectTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/SixPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/SizeButtonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/SizeButtonIconDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/SolidFill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/SolidOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/TextTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/Tools.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/TriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/TwoPage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/TwoPageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/UpArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/UpArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/UpArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/WaterColorIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/WatercolorSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ZoomIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ZoomInDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ZoomOut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/contrast-white/ZoomOutDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/paintpicture.targetsize-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/AirBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/AirBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/BrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/BrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CalligraphyBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CalligraphyBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CalligraphyPenIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CalligraphyPenSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CanvasSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CloudCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ColorPicker.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ColorPickerTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CrayonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CrayonSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CurveTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/CurvedArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/DiamondTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/DoubleArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/DownArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/DownArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/DownArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/EraserTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/FillTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/FivePointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Flip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/FourPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/FreeFormSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/HeartTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/HexagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/LeftArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/LightningTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/LineTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/MagnifierTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/MarkerIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/MarkerSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/NaturalPencilIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/NaturalPencilSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/NoFillOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ObjectSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OilBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OilBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OnePage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OnePageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OvalCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/OvalTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Paste.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/PencilTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/PentagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/PolygonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RectangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RectangularSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RightArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RightTriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RotateRight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RoundedRectCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/RoundedRectTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/SixPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/SizeButtonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/SizeButtonIconDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/SolidFill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/SolidOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/TextTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/Tools.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/TriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/TwoPage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/TwoPageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/UpArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/UpArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/UpArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/WaterColorIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/WaterColorSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ZoomIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ZoomInDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ZoomOut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-dark/ZoomOutDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/AirBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/AirBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/BrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/BrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CalligraphyBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CalligraphyBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CalligraphyPenIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CalligraphyPenSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CanvasSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CloudCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ColorPicker.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ColorPickerTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CrayonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CrayonSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CurveTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/CurvedArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/DiamondTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/DoubleArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/DownArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/DownArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/DownArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/EraserTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/FillTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/FivePointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Flip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/FourPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/FreeFormSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/HeartTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/HexagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/LeftArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/LightningTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/LineTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/MagnifierTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/MarkerIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/MarkerSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/NaturalPencilIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/NaturalPencilSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/NoFillOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ObjectSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OilBrushIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OilBrushSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OnePage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OnePageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OvalCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/OvalTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Paste.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/PencilTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/PentagonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/PolygonTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RectangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RectangularSelectionLarge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RightArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RightTriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RotateRight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RoundedRectCalloutTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/RoundedRectTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/SixPointStarTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/SizeButtonIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/SizeButtonIconDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/SolidFill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/SolidOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/TextTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/Tools.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/TriangleTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/TwoPage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/TwoPageDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/UpArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/UpArrowDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/UpArrowTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/WaterColorIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/WatercolorSwoosh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ZoomIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ZoomInDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ZoomOut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Assets/theme-light/ZoomOutDisabled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/ClassicAppCompat.sccd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/Microsoft.UI.Xaml.winmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/Microsoft.UI.Xaml.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/Microsoft.UI.Xaml.winmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI.winmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/AboutDialog.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/App.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ClipboardToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/CollapsedToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ColorsToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/EditColorsDialog.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ImageToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/MenuBar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/MessageBoxDialog.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/PrintPreviewRibbon.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ResizeAndSkewDialog.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/Ribbon.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/SelectionContextMenu.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ShapeContextMenu.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ShapesToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/StatusBar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/TextContextMenu.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/TextToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ToolsToolbar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/TopBar.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/PaintUI/ZoomSlider.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintApp/mspaint.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/PaintUI.winmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/S-1-5-21-87610015-1321774577-2228992566-1001-MergedResources-2.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.714bde6d.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Microsoft.Paint_11.2208.6.0_x64__8wekyb3d8bbwe/resources.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/drawer_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\himan\.android\avd\Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\himan\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,35 +980,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IOQxHDu2QJcySFKPP6E9CaB31W" />
+  <component name="ProjectId" id="2Rp0Y9ahVuQQyTRS1hJm9cBpEiD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NavigationDrawer\app\src\main\res\drawable" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NavigationDrawer\app\src\main\res\drawable" />
-    </key>
-    <key name="android.template.-894619261">
-      <recent name="com.chaurasiya.navigationdrawer" />
-    </key>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="NavigationDrawer.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -106,7 +1053,6 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-        <option name="PROFILING_MODE" value="NOT_SET" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -120,12 +1066,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c26b9a9-348a-4bee-9b61-928292620d8b" name="Changes" comment="" />
-      <created>1670050397220</created>
+      <changelist id="4c4cca55-eeb9-44c6-a5f6-f506e4a71eba" name="Changes" comment="" />
+      <created>1687931769911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670050397220</updated>
+      <updated>1687931769911</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

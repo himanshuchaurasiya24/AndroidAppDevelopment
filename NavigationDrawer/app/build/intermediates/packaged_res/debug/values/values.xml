@@ -7,6 +7,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="CloseNavigation">Close Navigation</string>
+    <string name="OpenNavigation">Open Navigation</string>
     <string name="app_name">NavigationDrawer</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Theme.NavigationDrawer" parent="Theme.MaterialComponents.DayNight.NoActionBar">

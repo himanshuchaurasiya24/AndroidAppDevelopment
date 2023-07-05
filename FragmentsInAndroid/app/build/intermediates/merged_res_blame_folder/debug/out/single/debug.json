@@ -40,10 +40,6 @@
         "source": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.chaurasiya.fragmentsinandroid.app-merged_res-29:/layout_fragment_blank3.xml.flat",
-        "source": "com.chaurasiya.fragmentsinandroid.app-main-31:/layout/fragment_blank3.xml"
-    },
-    {
         "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.chaurasiya.fragmentsinandroid.app-merged_res-29:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "com.chaurasiya.fragmentsinandroid.app-main-31:/drawable/ic_android_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.5\\com.chaurasiya.fragmentsinandroid.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",

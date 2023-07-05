@@ -7,4 +7,8 @@ iEmail.putExtra(Intent.EXTRA_EMAIL, new String [] {"himanshuchaurasiya24@gmail.c
 iEmail.putExtra(Intent.EXTRA_SUBJECT, "Queries");
 iEmail.putExtra(Intent.EXTRA_TEXT, "Please Resolve this issue asap");
 iShare.setType("text/plain");
-iShare.putExtra(Intent.EXTRA_TEXT, "Download this amazing app, https://play.google.com/store/apps/details?id=offroad.racing.game");
+iShare.putExtra(Intent.EXTRA_TEXT, "Download this amazing app, 
+https://play.google.com/store/apps/details?id=offroad.racing.game");
+JSON javascript for object notation
+adb tcpip 5555
+adb connect device_ip_address

@@ -2,6 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#E30707"
+    android:layout_gravity="center"
     android:layout_height="match_parent"
     tools:context=".AFragment">
 
@@ -9,6 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center"
+        android:text="Notes" />
 
 </FrameLayout>

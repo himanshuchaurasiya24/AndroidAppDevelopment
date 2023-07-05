@@ -47,9 +47,14 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction ft = fm.beginTransaction();
         if(flag==0){
             ft.add(R.id.container, fragment);
+//            fm.popBackStack(ROOT_FRAGMENT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+//            ft.addToBackStack(ROOT_FRAGMENT_TAG);
         }else {
             ft.replace(R.id.container, fragment);
+
         }
+        ft.addToBackStack(null);
+
         ft.commit();
     }
 }
