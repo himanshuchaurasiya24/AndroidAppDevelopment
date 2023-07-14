@@ -1,2 +1,21 @@
-package com.chaurasiya.roomdatabaseexample;public interface ExpenseDAO {
+package com.chaurasiya.roomdatabaseexample;
+
+import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
+
+import java.util.List;
+
+@Dao
+public interface ExpenseDAO {
+    @Query("select * from expense")
+    List<Expense> getAllExpense();
+    @Insert
+    void addTransaction(Expense expense);
+    @Update
+    void updateTransaction(Expense expense);
+    @Delete
+    void delete(Expense expense);
 }

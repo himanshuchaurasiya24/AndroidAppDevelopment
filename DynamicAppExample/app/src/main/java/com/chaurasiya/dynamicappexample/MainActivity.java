@@ -19,13 +19,14 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    ListView listView;
     ArrayList<String> fetchedName = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ListView listView = findViewById(R.id.listView);
+        listView = findViewById(R.id.listView);
         String url = "https://jsonplaceholder.typicode.com/users";
         AndroidNetworking.initialize(getApplicationContext());
         AndroidNetworking.get(url)
