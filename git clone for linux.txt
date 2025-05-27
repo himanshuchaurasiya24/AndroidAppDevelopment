@@ -1,3 +1,11 @@
+git clone git@github.com:himanshuchaurasiya24/sqflite_riverpod.git
+git clone git@github.com:himanshuchaurasiya24/FirmwareFiles.git
+git clone git@github.com:himanshuchaurasiya24/RiverpodTutorial.git
+git clone git@github.com:himanshuchaurasiya24/StoreManagementFlutterXDjango.git
+git clone git@github.com:himanshuchaurasiya24/Django-Recall.git
+git clone git@github.com:himanshuchaurasiya24/Django-Authentication.git
+git clone git@github.com:himanshuchaurasiya24/LabLedger.git
+git clone git@github.com:himanshuchaurasiya24/LabLedger-Backend.git
 git clone git@github.com:himanshuchaurasiya24/BlogDRFxScaler.git
 git clone git@github.com:himanshuchaurasiya24/DRFxScaler.git
 git clone git@github.com:himanshuchaurasiya24/djangoxflutterdurgesh.git
