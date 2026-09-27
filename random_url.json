@@ -1,5 +1,6 @@
 {
-"ll": "http://127.0.0.1:8000/",
-  "axd": "http://127.0.0.1:8000/",
-"ax": "https://axiomvault.duckdns.org/"
+  "ax": "https://axiomvault.duckdns.org/",
+  "sig": "AtsrVFZyVyKzv9ppLwCEMpXJbDHn2P/EV6esvWLC7UMlb4hmprWZnwQB591SVyHg8AKniVzeoU+fxVU1BDak+tMZjevlhY3zSZoixvvjkYbhjZmYbaF1DxlZN40/O0ItwJx7rDPfdD3clZKn5vOEZN0sBpMhijrNTay2IaKxKto3dL0GaNBqxLXlm5j/aO/EQNbfrjtp+wlKRxnjAqyu7fizYFrDCgPReq3Mkj4yef5TvENRfE9Xhb8lKAcr8VloyLeTCzEwVoa9HWWGhdkqCqjZWQEC5taV0l2usUTDi77l1jPZYe0bXQhrshvpbUheQoTukF/p9kHXCzPbovr14A==",
+  "ll": "http://127.0.0.1:8000/",
+  "axd": "http://127.0.0.1:8000/"
 }
